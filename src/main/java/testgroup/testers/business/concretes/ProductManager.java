@@ -15,7 +15,8 @@ public class ProductManager implements ProductService {
     private ProductDao productDao;
 
     public static void main(String[] args) {
-        System.out.println("hello world");
+        System.out.println("hello worldhhhhhh");
+        System.out.println("hello hello");
     }
 
     @Autowired  //auto olarak projeyi tarar ve bu productDao'ya denk geleni bulur, yerlestirir
