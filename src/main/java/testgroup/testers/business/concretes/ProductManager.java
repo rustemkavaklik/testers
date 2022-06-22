@@ -14,10 +14,6 @@ public class ProductManager implements ProductService {
     //DataAccess deki veriye ulasmamiz lazim bunun icin
     private ProductDao productDao;
 
-    public static void main(String[] args) {
-        System.out.println("hello world");
-    }
-
     @Autowired  //auto olarak projeyi tarar ve bu productDao'ya denk geleni bulur, yerlestirir
     public ProductManager(ProductDao productDao) {
         this.productDao = productDao;
